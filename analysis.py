@@ -14,5 +14,6 @@ most_positive=df.sort_values("positive_prod",ascending=False).iloc[0]
 most_negative=df.sort_values("positive_prod").iloc[0]
 print("Most positive review probability: ",most_positive["positive_prod"])
 print(most_positive["review"])
+print()
 print("Most negative review probability: ",most_negative["positive_prod"])
 print(most_negative["review"])
