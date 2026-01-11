@@ -2,8 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
 
-
-
 # Load model
 model=joblib.load("model/logistic_model.pkl")
 vectorizer=joblib.load("model/vectorizer.pkl")
